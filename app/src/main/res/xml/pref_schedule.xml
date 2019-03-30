@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_schedule_title">
+
+        <ListPreference
+            android:entries="@array/pref_schedule_type_titles"
+            android:entryValues="@array/pref_schedule_type_values"
+            android:key="pref_schedule_type"
+            android:title="@string/pref_schedule_type" />
+        <EditTextPreference
+            android:id="@+id/pref_schedule_group"
+            android:key="pref_schedule_group"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_schedule_group" />
+        <ListPreference
+            android:entries="@array/pref_schedule_dinner_titles"
+            android:entryValues="@array/pref_schedule_dinner_values"
+            android:key="pref_schedule_dinner"
+            android:title="@string/pref_schedule_dinner" />
+        <ListPreference
+            android:entries="@array/pref_schedule_method_titles"
+            android:entryValues="@array/pref_schedule_method_values"
+            android:key="pref_schedule_method"
+            android:title="@string/pref_schedule_method" />
+    </PreferenceCategory>
+</PreferenceScreen>

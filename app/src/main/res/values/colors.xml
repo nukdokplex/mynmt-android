@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimaryVK">#597da3</color>
+    <color name="colorPrimaryDarkVK">#4a6987</color>
+    <color name="colorPrimaryOrange">#FF5722</color>
+    <color name="colorPrimaryDarkOrange">#E64A19</color>
+    <color name="colorAccentVK">#5181b8</color>
+    <color name="scheduleListViewHighlight1">#f44336</color>
+    <color name="scheduleListViewHighlight2">#FF9800</color>
+    <color name="scheduleListViewHighlight3">#FFC107</color>
+    <color name="scheduleListViewHighlight4">#8BC34A</color>
+    <color name="scheduleListViewHighlight5">#4CAF50</color>
+    <color name="scheduleListViewHighlight6">#009688</color>
+    <color name="scheduleListViewHighlight7">#3F51B5</color>
+    <color name="scheduleListViewHighlight8">#673AB7</color>
+    <color name="scheduleListViewHighlight">#607d8b</color>
+    <color name="vkAuthButton">#5181b8</color>
+    <color name="window_background">#fafafa</color>
+</resources>

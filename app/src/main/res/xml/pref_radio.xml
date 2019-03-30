@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_radio_title">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_radio_quality_titles"
+            android:entryValues="@array/pref_radio_quality_values"
+            android:key="pref_radio_quality"
+            android:title="@string/pref_radio_quality" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Мой НМК</string>
+    <string name="navigation_drawer_open">Открыть панель</string>
+    <string name="navigation_drawer_close">Закрыть панель</string>
+    <string name="nav_header_title">Мой НМК</string>
+    <string name="nav_header_subtitle">Нефтекамский Машиностроительный колледж</string>
+    <string name="nav_header_desc">Заголовок панели</string>
+    <string name="action_settings">Настройки</string>
+    <string name="nav_schedule">Расписание</string>
+    <string name="nav_news">Новости</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_update">Обновление</string>
+    <string name="nav_radio">Радио</string>
+    <string name="nav_board">Доска объявлений β</string>
+    <string name="nav_schedule_timeline">Линия времени α</string>
+    <string name="nav_app">Приложение</string>
+    <string name="play">Играть</string>
+    <string name="refresh">Обновить</string>
+    <string name="aboutFragmentTextTitle">О приложении</string>
+    <string name="cd_play">Играть/Пауза</string>
+
+    <string name="aboutFragmentText1">Это приложение было разработано специально для студентов и преподавателей НМК с целью создания и поддержки единой инфраструктуры колледжа.</string>
+    <string name="aboutFragmentText2">Создатель приложения: Виктор Титов (NukDokPlex) - NukDotCom Team\'s Captain.</string>
+    <string name="aboutFragmentText3"><a href="https://vk.com/nukdokplex">Создатель приложения</a>\n<a href="https://mynmt.nukdotcom.ru/">Веб-версия</a>\n<a href="https://vk.com/mynmt">Оффициальная группа приложения</a>\n<a href="https://vk.com/nmk_nsk">Оффициальная группа НМК</a>\n<a href="https://nukdotcom.ru">NukDotCom Team Website</a></string>
+    <string name="scheduleEndpoint">https://mynmt.nukdotcom.ru/api/schedule_cache/</string>
+    <string name="scheduleEndpointPHP">https://nukdotcom.ru/tools/get_schedule.php</string>
+    <string name="scheduleEndpointDirect">http://nmt.edu.ru/index.php/component/schedule/?view=schedule&amp;days=</string>
+    <string name="boardEndpointGetPosters">https://nukdotcom.ru/tools/board/get_posters.php</string>
+    <string name="noSettings">
+        Кажется, Вы не указали настройки!
+        Зайдите в пункт "Настройки"!
+    </string>
+    <string name="radioButtonSettingsForStudents">Для студентов</string>
+    <string name="radioButtonSettingsForTeachers">Для преподавателей</string>
+    <string name="group">Группа</string>
+    <string name="editTextSettingsGroup">Введите группу</string>
+    <string name="editTextSettingsTeacher">Введите ваше имя, как в расписании</string>
+    <string name="error_no_settings">Кажется, Вы не указали настройки! Зайдите в пункт Настройки!</string>
+    <string name="link_button_caption">Читать</string>
+    <string name="update_no_connection">
+        Неудалось подключиться к серверу!
+        Проверьте подключение к Интернету!
+    </string>
+    <string name="update_illegal_response">
+        Пришел неправильный ответ от сервера!
+        Повторите попытку позже…
+    </string>
+    <string name="not_need_update">Обновление не требуется.</string>
+    <string name="update_needed">Требуется обновление!</string>
+    <string name="not_connected">Нет соединения с Интернетом!</string>
+    <string name="make_donation">Сделать пожертвование\nи удалить рекламу</string>
+    <string name="donation_purchased">Спасибо за пожертвование! Мы убрали рекламу!</string>
+    <string name="donated">Огромное спасибо!</string>
+    <string name="dinner_after_second">Обед после второй пары</string>
+    <string name="dinner_on_second">Обед во время второй пары</string>
+    <string name="vk_auth_button_login">Авторизоваться через ВК</string>
+    <string name="vk_auth_button_logout">Выйти из ВК</string>
+    <integer name="com_vk_sdk_AppId">6825484</integer>
+    <string name="future_release_vk">В будущем это может пригодиться :)</string>
+    <string name="appearance_classic">Классическое оформление</string>
+    <string name="appearance_vk">Оформление "ВКонтакте"</string>
+    <string name="appearance_orange">Апельсин</string>
+    <string name="appearance_amoled_green">Черное оформление (зеленое)</string>
+    <string name="appearance_amoled_vk">Черное оформление (ВКонтакте)</string>
+    <string name="appearance_amoled_orange">Черное оформление (оранжевый)</string>
+    <string name="appearance_warning">Чтобы изменения вступили в силу, перезапустите приложение!</string>
+    <string name="setting_direct_method">Получать напрямую</string>
+    <string name="setting_fast_method">Использовать кэш с сервера (быстрее)</string>
+    <string name="setting_slow_method">Использовать посредника</string>
+    <string name="settings_title_schedule">Расписание</string>
+    <string name="settings_title_appearance">Внешний вид</string>
+    <string name="settings_title_authorization">Авторизация</string>
+    <string name="make_poster">Создать объявление</string>
+    <string name="make_poster_title">Заголовок</string>
+    <string name="make_poster_body">Сообщение</string>
+    <string name="make_poster_send">Отправить</string>
+    <string name="post_deleted">(удалено)</string>
+    <string name="mn_delete">Удалить</string>
+    <string name="mn_restore">Восстановить</string>
+    <string name="mn_edit">Изменить</string>
+    <string name="schedule_timezone">GMT+06</string>
+    <string name="edit_poster">Изменить объявление</string>
+    <string name="schedule_widget">Расписание НМК</string>
+    <string name="add_widget">Добавить Виджет</string>
+    <string name="schedule_widget_settings_title">Настройка виджета с расписанием</string>
+    <string name="schedule_widget_settings_now">На сегодня</string>
+    <string name="schedule_widget_settings_next">На завтра</string>
+    <string name="schedule_widget_settings_first">На понедельник</string>
+    <string name="future_release">
+        Здесь пока ничего нет.\n
+        Мы работаем над этим!
+    </string>
+    <string name="no_stream">Невозможно запустить радио!</string>
+    <string name="live_broadcast">В Эфире</string>
+    <string name="radio_title">Radio Record</string>
+    <string name="radio_subtitle">Главная станция</string>
+    <string name="radio_high_quality">Высокое качество</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_schedule_title">Расписание</string>
+
+    <string name="pref_schedule_type">Тип расписания</string>
+    <string-array name="pref_schedule_type_titles">
+        <item>Для студентов</item>
+        <item>Для преподавателей</item>
+    </string-array>
+    <string-array name="pref_schedule_type_values">
+        <item>student</item>
+        <item>teacher</item>
+    </string-array>
+
+    <string name="pref_schedule_group">Группа или имя преподавателя</string>
+
+    <string name="pref_schedule_dinner">Обед</string>
+    <string-array name="pref_schedule_dinner_titles">
+        <item>Обед после второй пары</item>
+        <item>Обед во время второй пары</item>
+    </string-array>
+    <string-array name="pref_schedule_dinner_values">
+        <item>after</item>
+        <item>on</item>
+    </string-array>
+
+    <string name="pref_schedule_method">Метод получения расписания</string>
+    <string-array name="pref_schedule_method_titles">
+        <item>Получать расписание напрямую</item>
+        <item>Получать расписания с сервера NukDotCom.ru (быстро)</item>
+    </string-array>
+    <string-array name="pref_schedule_method_values">
+        <item>direct</item>
+        <item>nukdotcom</item>
+    </string-array>
+
+    <string name="pref_radio_title">Радио</string>
+
+    <string name="pref_radio_quality">Качество радио</string>
+    <string-array name="pref_radio_quality_titles">
+        <item>Высокое качество (320kbps)</item>
+        <item>Низкое качество (128kbps)</item>
+    </string-array>
+    <string-array name="pref_radio_quality_values">
+        <item>hq</item>
+        <item>low</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
